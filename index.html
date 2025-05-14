@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>멀티 채널 HLS 링크 오픈</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .channels {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .channel-btn {
+            padding: 12px 24px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .channel-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>멀티 채널 HLS 링크 오픈</h1>
+        <div class="channels">
+            <button class="channel-btn" onclick="window.open('https://kbo01-skcdn.tving.com/kbosll/live5000.smil/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Iio6Ly8qLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzQ3MjE4NDM4fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=YrmvOc3c0V~dkcrJZX~uFbP969kJNTwLmyu~73OujyM8HjrnnLlT2nbfYbT1geaZ0BcfLIXDM0995zjHSrBtfbWCaDn85yyvez41oLSs2KM58kLMvXSwhOxDHa-hINyZSECUNRJCb0pAOw9DYb6VDXSa8l6m3HGwBAfpfXhytB3j5VkJg4aYiz~UthljPw-INAdsMaN8kqQFYBBtgW-wJd9gqDzBMSD5CShPdrbolgdJP2s3iYK0Jr-6CkGwIl9hCIqOKbIrhxSgh35G37Z8Rd7IsrmOYb45Bu3fg8Bm7txyuZR5EGTz3PNIQQ0mMPiplYatt1qHCietdWbbsztP9w__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA&pf=edge_2.16.7_hlsjs&xr=144', '_blank')">1채널</button>
+            <button class="channel-btn" onclick="window.open('https://bitl.to/4WNE', '_blank')">2채널</button>
+            <button class="channel-btn" onclick="window.open('https://bitl.to/4WNG', '_blank')">3채널</button>
+            <button class="channel-btn" onclick="window.open('https://bitl.to/4WNH', '_blank')">4채널</button>
+            <button class="channel-btn" onclick="window.open('https://bitl.to/4WNJ', '_blank')">5채널</button>
+        </div>
+    </div>
+</body>
+</html>
