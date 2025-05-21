@@ -1,5 +1,10 @@
 {
   "streams": [
+    {"name":"야구1", "url":"https://global-media.sooplive.com/live/soopbaseball1/master.m3u8"},
+    {"name":"야구2", "url":"https://global-media.sooplive.com/live/soopbaseball2/master.m3u8"},
+    {"name":"야구3", "url":"https://global-media.sooplive.com/live/soopbaseball3/master.m3u8"},
+    {"name":"야구4", "url":"https://global-media.sooplive.com/live/soopbaseball4/master.m3u8"},
+    {"name":"야구5", "url":"https://global-media.sooplive.com/live/soopbaseball5/master.m3u8"},
     {"name":"채널1", "url":"https://global-media.sooplive.com/live/workpoint/master.m3u8"},
     {"name":"채널2", "url":"https://global-media.sooplive.com/live/kbaduk/master.m3u8"},
     {"name":"채널3", "url":"https://global-media.sooplive.com/live/terais03/master.m3u8"},
